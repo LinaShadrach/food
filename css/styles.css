@@ -9,3 +9,18 @@
 #section3 p {
   display: none;
 }
+.nightbtn {
+  display: none;
+}
+.nightmode {
+  background-color: black;
+  color: red;
+}
+
+.nightmode .daybtn {
+  display: none;
+}
+
+.nightmode .nightbtn {
+  display: block;
+}

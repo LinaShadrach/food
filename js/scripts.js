@@ -10,4 +10,12 @@ $(function() {
   $("#section3 h2").click(function() {
     $("#section3 p").toggle();
   });
+
+  $(".daybtn").click(function() {
+    $("body").addClass("nightmode");
+  });
+
+  $(".nightbtn").click(function() {
+    $("body").removeClass("nightmode");
+  });
 });
